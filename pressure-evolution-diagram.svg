@@ -1,0 +1,19 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coordinate System -->
+  <line x1="100" y1="500" x2="700" y2="500" stroke="white" stroke-width="2"/>
+  <line x1="100" y1="500" x2="100" y2="100" stroke="white" stroke-width="2"/>
+  
+  <!-- Axis Labels -->
+  <text x="350" y="550" fill="white" font-family="Arial" font-size="16">Time (minutes)</text>
+  <text x="50" y="300" fill="white" transform="rotate(-90 50,300)" font-family="Arial" font-size="16">Pressure (kPa)</text>
+  
+  <!-- Pressure Curve -->
+  <path d="M 100 150 Q 300 200, 700 450" stroke="red" fill="none" stroke-width="2"/>
+  
+  <!-- Points of Interest -->
+  <circle cx="100" cy="150" r="5" fill="yellow"/>
+  <text x="70" y="140" fill="white" font-family="Arial" font-size="12">101.3 kPa</text>
+  
+  <circle cx="700" cy="450" r="5" fill="yellow"/>
+  <text x="670" y="440" fill="white" font-family="Arial" font-size="12">30.39 kPa</text>
+</svg>

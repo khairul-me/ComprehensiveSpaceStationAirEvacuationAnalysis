@@ -1,0 +1,24 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coordinate System -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="white" stroke-width="2"/>
+  <line x1="100" y1="400" x2="100" y2="100" stroke="white" stroke-width="2"/>
+  
+  <!-- Axis Labels -->
+  <text x="380" y="450" fill="white" font-family="Arial" font-size="16">Molecular Speed (m/s)</text>
+  <text x="50" y="250" fill="white" transform="rotate(-90 50,250)" font-family="Arial" font-size="16">Probability Density</text>
+  
+  <!-- Initial Distribution (T₁) -->
+  <path d="M 100 400 Q 200 350, 300 200 Q 400 150, 500 250 Q 600 350, 700 390" 
+        stroke="red" fill="none" stroke-width="2"/>
+  <text x="600" y="150" fill="red" font-family="Arial" font-size="12">t = 0s (293K)</text>
+  
+  <!-- Intermediate Distribution -->
+  <path d="M 100 400 Q 200 380, 300 250 Q 400 200, 500 300 Q 600 380, 700 395" 
+        stroke="yellow" fill="none" stroke-width="2"/>
+  <text x="600" y="170" fill="yellow" font-family="Arial" font-size="12">t = t_mid</text>
+  
+  <!-- Final Distribution (T₂) -->
+  <path d="M 100 400 Q 200 390, 300 300 Q 400 250, 500 350 Q 600 390, 700 398" 
+        stroke="blue" fill="none" stroke-width="2"/>
+  <text x="600" y="190" fill="blue" font-family="Arial" font-size="12">t = t_final (211K)</text>
+</svg>

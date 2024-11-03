@@ -1,0 +1,19 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Station Cross Section -->
+  <rect x="100" y="100" width="600" height="200" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Molecular Distribution -->
+  <circle cx="200" cy="150" r="3" fill="blue"/>
+  <circle cx="250" cy="180" r="3" fill="red"/>
+  <circle cx="300" cy="160" r="3" fill="blue"/>
+  <text x="150" y="80" fill="white" font-family="Arial" font-size="12">N₂ (blue), O₂ (red)</text>
+  
+  <!-- Flow Path -->
+  <path d="M 680 200 C 720 200, 720 200, 750 180" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M 680 180 C 720 180, 720 180, 750 160" stroke="white" fill="none" stroke-width="1"/>
+  
+  <!-- Labels -->
+  <text x="700" y="150" fill="white" font-family="Arial" font-size="12">Sonic Exit</text>
+  <text x="200" y="250" fill="white" font-family="Arial" font-size="12">P₁ = 101.3 kPa</text>
+  <text x="500" y="250" fill="white" font-family="Arial" font-size="12">P₂ = 30.39 kPa</text>
+</svg>
