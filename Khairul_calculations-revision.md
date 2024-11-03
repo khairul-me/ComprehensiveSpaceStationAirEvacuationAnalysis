@@ -91,6 +91,5 @@ The corrected evacuation time is 48.9 ± 2.5 minutes, not 47.5 ± 3.6 minutes as
 3. Second law of thermodynamics satisfied
 4. Choked flow conditions maintained throughout
 
-This revised calculation provides a more accurate result and better matches the physics of the situation. The temperature drop calculation remains correct, but the evacuation time needed revision.
-
-Would you like me to provide more detailed calculations or examine other aspects of these results?
+This is my revised calculation provides a more accurate result I guess
+-Khairul but don't trust me, please redo it by yourself - I'm kinda dum with calculator. 
