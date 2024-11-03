@@ -1,10 +1,5 @@
 | Symbol | Definition | Numerical value |
 |--------|------------|----------------|
-| V | Volume of space station | 628.32 m³ |
-| D | Diameter of space station | 4 m |
-| L | Length of space station | 50 m |
-| Dₕₒₗₑ | Diameter of breach | 0.01 m |
-| P₀ | Initial pressure | 101.3 kPa |
 | P₁ | Final pressure | 30.39 kPa |
 | T₀ | Initial temperature | 293.15 K |
 | T₁ | Final temperature | 211.07 K |
